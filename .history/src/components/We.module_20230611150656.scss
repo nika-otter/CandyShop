@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  background-color: rgb(209, 183, 188);
+  scroll-snap-align: center;
+}
+.main {
+  //   max-width: 1400px;
+  background-color: rgb(209, 183, 188);
+  display: flex;
+  justify-content: center;
+}

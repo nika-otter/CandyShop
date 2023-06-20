@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1400px;
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  button {
+    background-color: aqua;
+  }
+}

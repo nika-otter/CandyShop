@@ -1,0 +1,7 @@
+.container {
+  height: 100vh;
+  background-color: pink;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-y: auto;
+}

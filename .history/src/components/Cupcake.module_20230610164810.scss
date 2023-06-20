@@ -1,0 +1,15 @@
+.container {
+  height: 100vh;
+  background-color: rgb(224, 94, 183);
+  scroll-snap-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.cupcake__title {
+  //   font-size: large;
+  color: white;
+}
+.cupcake__subtitle {
+  color: white;
+  font-weight: 100;
+}
