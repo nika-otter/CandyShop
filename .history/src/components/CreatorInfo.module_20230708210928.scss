@@ -1,0 +1,19 @@
+
+.card{
+    position: absolute;
+    background-color: rgba(216, 112, 147, 0.767);
+    padding: 30px;
+    margin: 50px;
+    border-radius: 30%;
+    h3{
+        color: white;
+    }
+    img{
+    height: 30px;
+    filter: invert(100%);
+}
+a{
+    text-decoration: none;
+    color: white
+}
+}
