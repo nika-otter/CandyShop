@@ -3,7 +3,9 @@ import classes from "./Cupcake.module.scss";
 import Nav from "./Nav";
 import { Suspense } from "react";
 import { MeshDistortMaterial, OrbitControls, Stage } from "@react-three/drei";
-
+// import Spheree from "./3djsx/Spheree";
+// import Sphere3d from "./Sphere3d";
+// import Div from "./Div";
 function Cupcake() {
   return (
     <section className={classes.main} id="home">
@@ -30,11 +32,39 @@ function Cupcake() {
             </a>
           </div>
 
+          {/* <div className={classes.cupcake}> */}
+          {/* <div className={classes.sphere}>
+                <Canvas camera={{ position: [5, 5, 5], fov: 25 }}>
+                  <Suspense fallback={null}>
+                    <ambientLight intensity={0.5} />
+                    <directionalLight position={[3, 2, 1]} />
+                    <Sphere args={[1, 100, 200]} scale={1.5}>
+                      <MeshDistortMaterial
+                        color="#ffb9c5"
+                        attach="material"
+                        distort={0.5}
+                        speed={2}
+                      />
+                    </Sphere>
+                    <OrbitControls enableZoom={false} autoRotate />
+                  </Suspense>
+                </Canvas>
+              </div> */}
+          {/* <Stage> */}
+
+          {/* <Sphere3d /> */}
+
+          {/* <Spheree /> */}
+
           <img
             className={classes.cupcakeimg}
             src="https://static.vecteezy.com/system/resources/previews/019/165/502/original/3d-pink-cupcake-transparent-background-png.png"
             alt=""
           />
+          {/* </Stage> */}
+
+          {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>

@@ -39,13 +39,7 @@ const MapChart = () => {
           strokeLinecap: "round",
         }}
       >
-        <text
-          x="-8"
-          textAnchor="end"
-          alignmentBaseline="middle"
-          fill="#FFFFFF"
-          fontSize="30px"
-        >
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#FFFFFF">
           {"Uzhhorod"}
         </text>
       </Annotation>
@@ -59,13 +53,7 @@ const MapChart = () => {
           strokeLinecap: "round",
         }}
       >
-        <text
-          x="-8"
-          textAnchor="end"
-          alignmentBaseline="middle"
-          fill="#FFFFFF"
-          fontSize="30px"
-        >
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#FFFFFF">
           {"Pitesti"}
         </text>
       </Annotation>

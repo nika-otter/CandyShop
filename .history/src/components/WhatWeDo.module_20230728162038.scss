@@ -1,5 +1,5 @@
 .main {
-
+  //   max-width: 1400px;
   background-color: rgb(212, 139, 153);
   display: flex;
   justify-content: center;
@@ -28,14 +28,23 @@
     font-size: 65px;
     text-align: start;
     cursor: pointer;
-  
-        &:hover {
+    &:hover {
       color: #ffffff;
-
-    } 
-    &::after {
+      //   &::after {
+      //     // content: {(props) => props.text}};
+      //     position: absolute;
+      //     top: 0;
+      //     left: 0;
+      //   }
+    }
+        &::after {
           color: #530e0e;
-
-        } 
+          //   &::after {
+          //     // content: {(props) => props.text}};
+          //     position: absolute;
+          //     top: 0;
+          //     left: 0;
+          //   }
+        }
   }
 }

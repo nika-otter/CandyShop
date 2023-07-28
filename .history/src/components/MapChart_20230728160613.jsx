@@ -13,8 +13,8 @@ const MapChart = () => {
       projection="geoAzimuthalEqualArea"
       projectionConfig={{
         rotate: [-10.0, -52.0, 0],
-        center: [3, -3],
-        scale: 1200,
+        center: [-6, -7],
+        scale: 500,
       }}
     >
       <Geographies
@@ -39,13 +39,7 @@ const MapChart = () => {
           strokeLinecap: "round",
         }}
       >
-        <text
-          x="-8"
-          textAnchor="end"
-          alignmentBaseline="middle"
-          fill="#FFFFFF"
-          fontSize="30px"
-        >
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#FFFFFF">
           {"Uzhhorod"}
         </text>
       </Annotation>
@@ -59,13 +53,7 @@ const MapChart = () => {
           strokeLinecap: "round",
         }}
       >
-        <text
-          x="-8"
-          textAnchor="end"
-          alignmentBaseline="middle"
-          fill="#FFFFFF"
-          fontSize="30px"
-        >
+        <text x="-8" textAnchor="end" alignmentBaseline="middle" fill="#FFFFFF">
           {"Pitesti"}
         </text>
       </Annotation>

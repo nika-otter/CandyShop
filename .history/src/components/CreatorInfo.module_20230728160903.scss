@@ -1,12 +1,11 @@
 
 .card{
-    
+    // position: absolute;
     background-color: rgba(216, 112, 147, 0.767);
     padding: 30px;
-    
+    // margin: 4rem;
     border-radius: 10%;
     text-align: start;
-
     .link{
         display: flex;
         margin: 15px 0;
@@ -24,12 +23,10 @@
 a{
     text-decoration: none;
     color: white
-
     
     
 }
 
 }span{
     font-size: 2rem;
-    white-space: nowrap;
 }

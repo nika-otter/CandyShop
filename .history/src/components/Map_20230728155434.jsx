@@ -6,7 +6,7 @@ function Map() {
     <section id="location" className={classes.main}>
       <div className={classes.container}>
         <CreatorInfo />
-        <MapChart />
+        {/* <MapChart /> */}
       </div>
     </section>
   );

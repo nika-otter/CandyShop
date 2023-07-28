@@ -44,7 +44,7 @@ const MapChart = () => {
           textAnchor="end"
           alignmentBaseline="middle"
           fill="#FFFFFF"
-          fontSize="30px"
+          bfontSize="30px"
         >
           {"Uzhhorod"}
         </text>
